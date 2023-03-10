@@ -66,3 +66,6 @@ class JogoDeAventura:
 
 jogo = JogoDeAventura()
 jogo.Iniciar()
+
+
+
