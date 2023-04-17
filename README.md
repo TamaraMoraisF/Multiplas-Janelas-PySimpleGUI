@@ -1,9 +1,22 @@
-# Jogo de Aventura em Python
+# Aplicação de Múltiplas Janelas com PySimpleGUI
+Este repositório contém uma aplicação simples feita em Python, que utiliza a biblioteca PySimpleGUI para criar múltiplas janelas.
 
-Este é um jogo de aventura desenvolvido com Python e PySimpleGUI. Que permite ao usuário escolher caminhos e tomar decisões que afetam o resultado do jogo.
+## Instalação
+Para rodar a aplicação, é necessário ter o Python 3 instalado. Além disso, é necessário instalar a biblioteca PySimpleGUI. Para isso, execute o seguinte comando no terminal:
+- pip install PySimpleGUI
 
-Como Jogar:
+## Como utilizar
+Para executar a aplicação, basta rodar o seguinte comando no terminal:
+- python main.py
+A aplicação irá abrir uma janela, onde aparecerá para digitar "norte" ou "sul", dependendo da resposta, a segunda tela aparecerá solicitando que digite "espada" ou "escudo", dependendo das escolhas, acontecerá erro, ou uma mensagem diferente para cada um das 4 possíveis escolhas.
 
-• Ao executar o jogo, o jogador é apresentado a uma pergunta inicial: "Você nasceu no norte ou no sul?".
+## Contribuindo
+Contribuições são sempre bem-vindas! Caso queira contribuir com o projeto, basta seguir os seguintes passos:
+1) Faça um fork deste repositório;
+2) Crie uma branch para a sua feature (git checkout -b minha-feature);
+3) Faça commit das suas mudanças (git commit -am 'Adicionando nova feature');
+4) Faça push para a branch (git push origin minha-feature);
+5) Abra um Pull Request.
 
-• Dependendo da resposta, o jogador será levado a uma nova pergunta, e a resposta dessa nova pergunta levará a um dos três finais possíveis.
+## Licença
+Este projeto está sob a licença MIT.
